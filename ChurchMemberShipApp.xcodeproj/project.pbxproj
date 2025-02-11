@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07046DF82D55A7430021A113 /* SimpleKeychain in Frameworks */ = {isa = PBXBuildFile; productRef = 07046DF72D55A7430021A113 /* SimpleKeychain */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07046CC02D521E210021A113 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07046CA12D521E1E0021A113 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07046CA82D521E1E0021A113;
+			remoteInfo = ChurchMemberShipApp;
+		};
+		07046CCA2D521E210021A113 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07046CA12D521E1E0021A113 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07046CA82D521E1E0021A113;
+			remoteInfo = ChurchMemberShipApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07046CA92D521E1E0021A113 /* ChurchMemberShipApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChurchMemberShipApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07046CBF2D521E210021A113 /* ChurchMemberShipAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChurchMemberShipAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07046CC92D521E210021A113 /* ChurchMemberShipAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChurchMemberShipAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		07046CD12D521E210021A113 /* Exceptions for "ChurchMemberShipApp" folder in "ChurchMemberShipApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 07046CA82D521E1E0021A113 /* ChurchMemberShipApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		07046CAB2D521E1E0021A113 /* ChurchMemberShipApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				07046CD12D521E210021A113 /* Exceptions for "ChurchMemberShipApp" folder in "ChurchMemberShipApp" target */,
+			);
+			path = ChurchMemberShipApp;
+			sourceTree = "<group>";
+		};
+		07046CC22D521E210021A113 /* ChurchMemberShipAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ChurchMemberShipAppTests;
+			sourceTree = "<group>";
+		};
+		07046CCC2D521E210021A113 /* ChurchMemberShipAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ChurchMemberShipAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07046CA62D521E1E0021A113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07046DF82D55A7430021A113 /* SimpleKeychain in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07046CBC2D521E210021A113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07046CC62D521E210021A113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07046CA02D521E1E0021A113 = {
+			isa = PBXGroup;
+			children = (
+				07046CAB2D521E1E0021A113 /* ChurchMemberShipApp */,
+				07046CC22D521E210021A113 /* ChurchMemberShipAppTests */,
+				07046CCC2D521E210021A113 /* ChurchMemberShipAppUITests */,
+				07046CAA2D521E1E0021A113 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07046CAA2D521E1E0021A113 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07046CA92D521E1E0021A113 /* ChurchMemberShipApp.app */,
+				07046CBF2D521E210021A113 /* ChurchMemberShipAppTests.xctest */,
+				07046CC92D521E210021A113 /* ChurchMemberShipAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07046CA82D521E1E0021A113 /* ChurchMemberShipApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07046CD22D521E210021A113 /* Build configuration list for PBXNativeTarget "ChurchMemberShipApp" */;
+			buildPhases = (
+				07046CA52D521E1E0021A113 /* Sources */,
+				07046CA62D521E1E0021A113 /* Frameworks */,
+				07046CA72D521E1E0021A113 /* Resources */,
+				07046CDE2D521EAE0021A113 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				07046CAB2D521E1E0021A113 /* ChurchMemberShipApp */,
+			);
+			name = ChurchMemberShipApp;
+			packageProductDependencies = (
+				07046DF72D55A7430021A113 /* SimpleKeychain */,
+			);
+			productName = ChurchMemberShipApp;
+			productReference = 07046CA92D521E1E0021A113 /* ChurchMemberShipApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07046CBE2D521E210021A113 /* ChurchMemberShipAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07046CD72D521E210021A113 /* Build configuration list for PBXNativeTarget "ChurchMemberShipAppTests" */;
+			buildPhases = (
+				07046CBB2D521E210021A113 /* Sources */,
+				07046CBC2D521E210021A113 /* Frameworks */,
+				07046CBD2D521E210021A113 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07046CC12D521E210021A113 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				07046CC22D521E210021A113 /* ChurchMemberShipAppTests */,
+			);
+			name = ChurchMemberShipAppTests;
+			packageProductDependencies = (
+			);
+			productName = ChurchMemberShipAppTests;
+			productReference = 07046CBF2D521E210021A113 /* ChurchMemberShipAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07046CC82D521E210021A113 /* ChurchMemberShipAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07046CDA2D521E210021A113 /* Build configuration list for PBXNativeTarget "ChurchMemberShipAppUITests" */;
+			buildPhases = (
+				07046CC52D521E210021A113 /* Sources */,
+				07046CC62D521E210021A113 /* Frameworks */,
+				07046CC72D521E210021A113 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07046CCB2D521E210021A113 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				07046CCC2D521E210021A113 /* ChurchMemberShipAppUITests */,
+			);
+			name = ChurchMemberShipAppUITests;
+			packageProductDependencies = (
+			);
+			productName = ChurchMemberShipAppUITests;
+			productReference = 07046CC92D521E210021A113 /* ChurchMemberShipAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07046CA12D521E1E0021A113 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					07046CA82D521E1E0021A113 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					07046CBE2D521E210021A113 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 07046CA82D521E1E0021A113;
+					};
+					07046CC82D521E210021A113 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 07046CA82D521E1E0021A113;
+					};
+				};
+			};
+			buildConfigurationList = 07046CA42D521E1E0021A113 /* Build configuration list for PBXProject "ChurchMemberShipApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07046CA02D521E1E0021A113;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				07046CDD2D521E400021A113 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
+				07046DF62D55A7430021A113 /* XCRemoteSwiftPackageReference "SimpleKeychain" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 07046CAA2D521E1E0021A113 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07046CA82D521E1E0021A113 /* ChurchMemberShipApp */,
+				07046CBE2D521E210021A113 /* ChurchMemberShipAppTests */,
+				07046CC82D521E210021A113 /* ChurchMemberShipAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07046CA72D521E1E0021A113 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07046CBD2D521E210021A113 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07046CC72D521E210021A113 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07046CDE2D521EAE0021A113 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nSWIFT_PACKAGE_DIR=\"${BUILD_DIR%Build/*}SourcePackages/artifacts\"\nSWIFTLINT_CMD=$(ls \"$SWIFT_PACKAGE_DIR\"/swiftlintplugins/SwiftLintBinary/SwiftLintBinary.artifactbundle/swiftlint-*-macos/bin/swiftlint | head -n 1)\n\nif test -f \"$SWIFTLINT_CMD\" 2>&1\nthen\n    \"$SWIFTLINT_CMD\"\nelse\n    echo \"warning: `swiftlint` command not found - See https://github.com/realm/SwiftLint#installation for installation instructions.\"\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07046CA52D521E1E0021A113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07046CBB2D521E210021A113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07046CC52D521E210021A113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07046CC12D521E210021A113 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07046CA82D521E1E0021A113 /* ChurchMemberShipApp */;
+			targetProxy = 07046CC02D521E210021A113 /* PBXContainerItemProxy */;
+		};
+		07046CCB2D521E210021A113 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07046CA82D521E1E0021A113 /* ChurchMemberShipApp */;
+			targetProxy = 07046CCA2D521E210021A113 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07046CD32D521E210021A113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChurchMemberShipApp/ChurchMemberShipApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChurchMemberShipApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = techconsulting.ChurchMemberShipApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07046CD42D521E210021A113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChurchMemberShipApp/ChurchMemberShipApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChurchMemberShipApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = techconsulting.ChurchMemberShipApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07046CD52D521E210021A113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07046CD62D521E210021A113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07046CD82D521E210021A113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = techconsulting.ChurchMemberShipAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChurchMemberShipApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChurchMemberShipApp";
+			};
+			name = Debug;
+		};
+		07046CD92D521E210021A113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = techconsulting.ChurchMemberShipAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChurchMemberShipApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChurchMemberShipApp";
+			};
+			name = Release;
+		};
+		07046CDB2D521E210021A113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = techconsulting.ChurchMemberShipAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChurchMemberShipApp;
+			};
+			name = Debug;
+		};
+		07046CDC2D521E210021A113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = techconsulting.ChurchMemberShipAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChurchMemberShipApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07046CA42D521E1E0021A113 /* Build configuration list for PBXProject "ChurchMemberShipApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07046CD52D521E210021A113 /* Debug */,
+				07046CD62D521E210021A113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07046CD22D521E210021A113 /* Build configuration list for PBXNativeTarget "ChurchMemberShipApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07046CD32D521E210021A113 /* Debug */,
+				07046CD42D521E210021A113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07046CD72D521E210021A113 /* Build configuration list for PBXNativeTarget "ChurchMemberShipAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07046CD82D521E210021A113 /* Debug */,
+				07046CD92D521E210021A113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07046CDA2D521E210021A113 /* Build configuration list for PBXNativeTarget "ChurchMemberShipAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07046CDB2D521E210021A113 /* Debug */,
+				07046CDC2D521E210021A113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		07046CDD2D521E400021A113 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SimplyDanny/SwiftLintPlugins";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.58.2;
+			};
+		};
+		07046DF62D55A7430021A113 /* XCRemoteSwiftPackageReference "SimpleKeychain" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/SimpleKeychain";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		07046DF72D55A7430021A113 /* SimpleKeychain */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07046DF62D55A7430021A113 /* XCRemoteSwiftPackageReference "SimpleKeychain" */;
+			productName = SimpleKeychain;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 07046CA12D521E1E0021A113 /* Project object */;
+}

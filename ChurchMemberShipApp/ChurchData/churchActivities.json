@@ -1,0 +1,92 @@
+[
+    {
+        "id": "1",
+        "name": "Sunday Service",
+        "description": "Regularly scheduled Sunday Service for the church community.",
+        "imageUrls": [
+            "https://example.com/sunday_service.jpg"
+        ],
+        "date": "2025-05-22T00:00:00Z"
+    },
+    {
+        "id": "2",
+        "name": "Bible Study",
+        "description": "Regularly scheduled Bible Study for the church community.",
+        "imageUrls": [
+            "https://example.com/bible_study.jpg"
+        ],
+        "date": "2024-10-23T00:00:00Z"
+    },
+    {
+        "id": "3",
+        "name": "Youth Fellowship",
+        "description": "Regularly scheduled Youth Fellowship for the church community.",
+        "imageUrls": [
+            "https://example.com/youth_fellowship.jpg"
+        ],
+        "date": "2024-07-30T00:00:00Z"
+    },
+    {
+        "id": "4",
+        "name": "Community Outreach",
+        "description": "Regularly scheduled Community Outreach for the church community.",
+        "imageUrls": [
+            "https://example.com/community_outreach.jpg"
+        ],
+        "date": "2025-05-21T00:00:00Z"
+    },
+    {
+        "id": "5",
+        "name": "Choir Practice",
+        "description": "Regularly scheduled Choir Practice for the church community.",
+        "imageUrls": [
+            "https://example.com/choir_practice.jpg"
+        ],
+        "date": "2025-07-10T00:00:00Z"
+    },
+    {
+        "id": "6",
+        "name": "Prayer Meeting",
+        "description": "Regularly scheduled Prayer Meeting for the church community.",
+        "imageUrls": [
+            "https://example.com/prayer_meeting.jpg"
+        ],
+        "date": "2024-10-20T00:00:00Z"
+    },
+    {
+        "id": "7",
+        "name": "Elderly Support",
+        "description": "Regularly scheduled Elderly Support for the church community.",
+        "imageUrls": [
+            "https://example.com/elderly_support.jpg"
+        ],
+        "date": "2025-01-26T00:00:00Z"
+    },
+    {
+        "id": "8",
+        "name": "Missionary Trip",
+        "description": "Regularly scheduled Missionary Trip for the church community.",
+        "imageUrls": [
+            "https://example.com/missionary_trip.jpg"
+        ],
+        "date": "2024-01-25T00:00:00Z"
+    },
+    {
+        "id": "9",
+        "name": "Fundraising Event",
+        "description": "Regularly scheduled Fundraising Event for the church community.",
+        "imageUrls": [
+            "https://example.com/fundraising_event.jpg"
+        ],
+        "date": "2025-03-24T00:00:00Z"
+    },
+    {
+        "id": "10",
+        "name": "Christmas Service",
+        "description": "Regularly scheduled Christmas Service for the church community.",
+        "imageUrls": [
+            "https://example.com/christmas_service.jpg"
+        ],
+        "date": "2025-11-29T00:00:00Z"
+    }
+]

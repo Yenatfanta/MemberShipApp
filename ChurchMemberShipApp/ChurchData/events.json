@@ -1,0 +1,160 @@
+[
+    {
+        "id": "1",
+        "name": "Easter Celebration",
+        "description": "A special church event for Easter Celebration.",
+        "date": "2025-07-19T00:00:00Z",
+        "location": "Outdoor Park",
+        "attendees": [
+            "10",
+            "6",
+            "3",
+            "4"
+        ],
+        "imageUrl": "https://shorturl.at/ZUBa9"
+    },
+    {
+        "id": "2",
+        "name": "Ethiopian Meske;",
+        "description": "Meskel, meaning the Cross in Amharic is an annual religious Ethiopian holiday among Orthodox Christian believers and the first outdoor feast in the Church calendar. Meskel takes place on the 27th of September, or 28th during a leap year, Gregorian calendar.",
+        "date": "2025-07-20T00:00:00Z",
+        "location": "Conference Room",
+        "attendees": [
+            "4",
+            "8",
+            "5",
+            "7"
+        ],
+        "imageUrl": "https://shorturl.at/1Q4XR"
+    },
+    {
+        "id": "3",
+        "name": "New Year's Eve Prayer",
+        "description": "A special church event for New Year's Eve Prayer.",
+        "date": "2025-05-14T00:00:00Z",
+        "location": "Conference Room",
+        "attendees": [
+            "10",
+            "2",
+            "4",
+            "8",
+            "9",
+            "1",
+            "4"
+        ],
+        "imageUrl": "https://shorturl.at/Nj6FD"
+    },
+    {
+        "id": "4",
+        "name": "Summer Camp",
+        "description": "A special church event for Summer Camp.",
+        "date": "2024-10-15T00:00:00Z",
+        "location": "Community Center",
+        "attendees": [
+            "7",
+            "5",
+            "6",
+            "6",
+            "4"
+        ],
+        "imageUrl": ""
+    },
+    {
+        "id": "5",
+        "name": "Church Anniversary",
+        "description": "A special church event for Church Anniversary.",
+        "date": "2024-11-24T00:00:00Z",
+        "location": "Church Grounds",
+        "attendees": [
+            "3",
+            "3",
+            "1",
+            "4",
+            "4",
+            "3"
+        ],
+        "imageUrl": "https://example.com/church_anniversary.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Baptism Ceremony",
+        "description": "A special church event for Baptism Ceremony.",
+        "date": "2024-07-27T00:00:00Z",
+        "location": "Main Hall",
+        "attendees": [
+            "6",
+            "8",
+            "9",
+            "10"
+        ],
+        "imageUrl": "https://shorturl.at/Xy3cZ"
+    },
+    {
+        "id": "7",
+        "name": "Marriage Seminar",
+        "description": "A special church event for Marriage Seminar.",
+        "date": "2024-10-30T00:00:00Z",
+        "location": "Outdoor Park",
+        "attendees": [
+            "3",
+            "1",
+            "9",
+            "7",
+            "1",
+            "5",
+            "2",
+            "6"
+        ],
+        "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/0*ihz5IJuKDogEUxXr.jpg"
+    },
+    {
+        "id": "8",
+        "name": "Men's Conference",
+        "description": "A special church event for Men's Conference.",
+        "date": "2025-04-12T00:00:00Z",
+        "location": "Church Grounds",
+        "attendees": [
+            "1",
+            "3",
+            "7",
+            "4",
+            "10",
+            "8",
+            "2",
+            "1"
+        ],
+        "imageUrl": "https://example.com/men's_conference.jpg"
+    },
+    {
+        "id": "9",
+        "name": "Women's Conference",
+        "description": "A special church event for Women's Conference.",
+        "date": "2024-08-26T00:00:00Z",
+        "location": "Conference Room",
+        "attendees": [
+            "10",
+            "9",
+            "5",
+            "2",
+            "2",
+            "1"
+        ],
+        "imageUrl": "https://example.com/women's_conference.jpg"
+    },
+    {
+        "id": "10",
+        "name": "Children's Day",
+        "description": "A special church event for Children's Day.",
+        "date": "2024-12-23T00:00:00Z",
+        "location": "Community Center",
+        "attendees": [
+            "4",
+            "4",
+            "6",
+            "3",
+            "2"
+        ],
+        "imageUrl": "https://example.com/children's_day.jpg"
+    }
+]
+

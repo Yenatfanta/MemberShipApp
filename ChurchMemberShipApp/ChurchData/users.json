@@ -1,0 +1,131 @@
+[
+    {
+        "id": "1",
+        "name": "John Doe",
+        "phoneNumber": "+1234567801",
+        "email": "johndoe@example.com",
+        "membershipStatus": "inactive",
+        "groupIds": [
+            "3"
+        ],
+        "address": "1 Main Street, City, Country",
+        "role": "admin"
+    },
+    {
+        "id": "2",
+        "name": "Jane Smith",
+        "phoneNumber": "+1234567802",
+        "email": "janesmith@example.com",
+        "membershipStatus": "inactive",
+        "groupIds": [
+            "2"
+        ],
+        "address": "2 Main Street, City, Country",
+        "role": "admin"
+    },
+    {
+        "id": "3",
+        "name": "Alice Johnson",
+        "phoneNumber": "+1234567803",
+        "email": "alicejohnson@example.com",
+        "membershipStatus": "inactive",
+        "groupIds": [
+            "1",
+            "3",
+            "5"
+        ],
+        "address": "3 Main Street, City, Country",
+        "role": "admin"
+    },
+    {
+        "id": "4",
+        "name": "Bob Brown",
+        "phoneNumber": "+1234567804",
+        "email": "bobbrown@example.com",
+        "membershipStatus": "active",
+        "groupIds": [
+            "4",
+            "3",
+            "2"
+        ],
+        "address": "4 Main Street, City, Country",
+        "role": "admin"
+    },
+    {
+        "id": "5",
+        "name": "Charlie Davis",
+        "phoneNumber": "+1234567805",
+        "email": "charliedavis@example.com",
+        "membershipStatus": "active",
+        "groupIds": [
+            "5"
+        ],
+        "address": "5 Main Street, City, Country",
+        "role": "admin"
+    },
+    {
+        "id": "6",
+        "name": "Emily White",
+        "phoneNumber": "+1234567806",
+        "email": "emilywhite@example.com",
+        "membershipStatus": "active",
+        "groupIds": [
+            "3"
+        ],
+        "address": "6 Main Street, City, Country",
+        "role": "admin"
+    },
+    {
+        "id": "7",
+        "name": "Michael Black",
+        "phoneNumber": "+1234567807",
+        "email": "michaelblack@example.com",
+        "membershipStatus": "active",
+        "groupIds": [
+            "3",
+            "5",
+            "5"
+        ],
+        "address": "7 Main Street, City, Country",
+        "role": "member"
+    },
+    {
+        "id": "8",
+        "name": "Sarah Green",
+        "phoneNumber": "+1234567808",
+        "email": "sarahgreen@example.com",
+        "membershipStatus": "inactive",
+        "groupIds": [
+            "2",
+            "2"
+        ],
+        "address": "8 Main Street, City, Country",
+        "role": "admin"
+    },
+    {
+        "id": "9",
+        "name": "David Wilson",
+        "phoneNumber": "+1234567809",
+        "email": "davidwilson@example.com",
+        "membershipStatus": "inactive",
+        "groupIds": [
+            "5"
+        ],
+        "address": "9 Main Street, City, Country",
+        "role": "admin"
+    },
+    {
+        "id": "10",
+        "name": "Olivia Martinez",
+        "phoneNumber": "+1234567810",
+        "email": "oliviamartinez@example.com",
+        "membershipStatus": "inactive",
+        "groupIds": [
+            "2",
+            "2",
+            "1"
+        ],
+        "address": "10 Main Street, City, Country",
+        "role": "member"
+    }
+]

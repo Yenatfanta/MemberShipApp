@@ -1,0 +1,92 @@
+[
+    {
+        "id": "1",
+        "userId": "9",
+        "amount": 434.54,
+        "method": "PayPal",
+        "date": "2025-04-17T00:00:00Z",
+        "status": "pending",
+        "transactionId": "TXN00001"
+    },
+    {
+        "id": "2",
+        "userId": "7",
+        "amount": 255.41,
+        "method": "PayPal",
+        "date": "2024-09-23T00:00:00Z",
+        "status": "completed",
+        "transactionId": "TXN00002"
+    },
+    {
+        "id": "3",
+        "userId": "9",
+        "amount": 390.35,
+        "method": "Credit Card",
+        "date": "2025-01-02T00:00:00Z",
+        "status": "failed",
+        "transactionId": "TXN00003"
+    },
+    {
+        "id": "4",
+        "userId": "1",
+        "amount": 457.14,
+        "method": "Bank Transfer",
+        "date": "2024-12-16T00:00:00Z",
+        "status": "pending",
+        "transactionId": "TXN00004"
+    },
+    {
+        "id": "5",
+        "userId": "5",
+        "amount": 26.45,
+        "method": "Credit Card",
+        "date": "2025-10-22T00:00:00Z",
+        "status": "failed",
+        "transactionId": "TXN00005"
+    },
+    {
+        "id": "6",
+        "userId": "3",
+        "amount": 71.57,
+        "method": "Bank Transfer",
+        "date": "2024-06-12T00:00:00Z",
+        "status": "failed",
+        "transactionId": "TXN00006"
+    },
+    {
+        "id": "7",
+        "userId": "6",
+        "amount": 412.5,
+        "method": "Credit Card",
+        "date": "2024-04-17T00:00:00Z",
+        "status": "pending",
+        "transactionId": "TXN00007"
+    },
+    {
+        "id": "8",
+        "userId": "8",
+        "amount": 292.28,
+        "method": "PayPal",
+        "date": "2025-02-27T00:00:00Z",
+        "status": "failed",
+        "transactionId": "TXN00008"
+    },
+    {
+        "id": "9",
+        "userId": "8",
+        "amount": 360.95,
+        "method": "Credit Card",
+        "date": "2025-12-31T00:00:00Z",
+        "status": "failed",
+        "transactionId": "TXN00009"
+    },
+    {
+        "id": "10",
+        "userId": "7",
+        "amount": 120.93,
+        "method": "Bank Transfer",
+        "date": "2024-03-10T00:00:00Z",
+        "status": "failed",
+        "transactionId": "TXN00010"
+    }
+]
