@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		07046DF82D55A7430021A113 /* SimpleKeychain in Frameworks */ = {isa = PBXBuildFile; productRef = 07046DF72D55A7430021A113 /* SimpleKeychain */; };
+		07FBA1612D92E563007E945F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 07FBA1602D92E563007E945F /* FirebaseAuth */; };
+		07FBA1632D92E563007E945F /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 07FBA1622D92E563007E945F /* FirebaseCrashlytics */; };
+		07FBA1652D92E563007E945F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 07FBA1642D92E563007E945F /* FirebaseFirestore */; };
+		07FBA1672D92E563007E945F /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = 07FBA1662D92E563007E945F /* FirebaseMLModelDownloader */; };
+		07FBA1692D92E563007E945F /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 07FBA1682D92E563007E945F /* FirebaseRemoteConfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +74,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07FBA1632D92E563007E945F /* FirebaseCrashlytics in Frameworks */,
+				07FBA1652D92E563007E945F /* FirebaseFirestore in Frameworks */,
+				07FBA1672D92E563007E945F /* FirebaseMLModelDownloader in Frameworks */,
+				07FBA1692D92E563007E945F /* FirebaseRemoteConfig in Frameworks */,
 				07046DF82D55A7430021A113 /* SimpleKeychain in Frameworks */,
+				07FBA1612D92E563007E945F /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +142,11 @@
 			name = ChurchMemberShipApp;
 			packageProductDependencies = (
 				07046DF72D55A7430021A113 /* SimpleKeychain */,
+				07FBA1602D92E563007E945F /* FirebaseAuth */,
+				07FBA1622D92E563007E945F /* FirebaseCrashlytics */,
+				07FBA1642D92E563007E945F /* FirebaseFirestore */,
+				07FBA1662D92E563007E945F /* FirebaseMLModelDownloader */,
+				07FBA1682D92E563007E945F /* FirebaseRemoteConfig */,
 			);
 			productName = ChurchMemberShipApp;
 			productReference = 07046CA92D521E1E0021A113 /* ChurchMemberShipApp.app */;
@@ -218,6 +233,7 @@
 			packageReferences = (
 				07046CDD2D521E400021A113 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
 				07046DF62D55A7430021A113 /* XCRemoteSwiftPackageReference "SimpleKeychain" */,
+				07FBA15F2D92E563007E945F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 07046CAA2D521E1E0021A113 /* Products */;
@@ -618,6 +634,14 @@
 				minimumVersion = 1.2.0;
 			};
 		};
+		07FBA15F2D92E563007E945F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.10.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -625,6 +649,31 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 07046DF62D55A7430021A113 /* XCRemoteSwiftPackageReference "SimpleKeychain" */;
 			productName = SimpleKeychain;
+		};
+		07FBA1602D92E563007E945F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07FBA15F2D92E563007E945F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		07FBA1622D92E563007E945F /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07FBA15F2D92E563007E945F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		07FBA1642D92E563007E945F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07FBA15F2D92E563007E945F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		07FBA1662D92E563007E945F /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07FBA15F2D92E563007E945F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMLModelDownloader;
+		};
+		07FBA1682D92E563007E945F /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07FBA15F2D92E563007E945F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

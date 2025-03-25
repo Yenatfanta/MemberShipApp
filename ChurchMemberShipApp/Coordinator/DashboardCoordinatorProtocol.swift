@@ -33,5 +33,4 @@ final class DashboardCoordinator: ObservableObject, DashboardCoordinatorProtocol
             EventsView()
         }
     }
-    
 }

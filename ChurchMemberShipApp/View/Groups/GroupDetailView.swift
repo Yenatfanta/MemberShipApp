@@ -25,8 +25,7 @@ struct GroupDetailView: View {
                         title: "Members",
                         icon: "person.3.fill",
                         countBadge: group.memberIds.count
-                    )
-                    {
+                    ) {
                         MemberGrid(memberIds: group.memberIds)
                     }
                 }

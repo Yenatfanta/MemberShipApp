@@ -14,8 +14,7 @@ struct LoginViewControllerWrapper: UIViewControllerRepresentable {
         ) as LoginViewController
         return loginController
     }
-    func updateUIViewController( _ uiViewController: UIViewControllerType,
-        context: Context) {
-        
-    }
+    func updateUIViewController(
+        _ uiViewController: UIViewControllerType,
+        context: Context) {}
 }

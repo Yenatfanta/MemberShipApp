@@ -70,6 +70,6 @@ struct EventDetailView: View {
     }
 }
 
-//#Preview {
+// #Preview {
 //    EventDetailView()
-//}
+// }

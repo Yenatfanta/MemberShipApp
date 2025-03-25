@@ -17,7 +17,7 @@ class LoginViewController: UIViewController {
   @IBOutlet weak var loginButton: UIButton!
   var coordinator: AppCoordinator?
     @IBOutlet weak var errorLabel: UILabel!
-    private let viewModel = LoginViewModel()
+    private let fbViewModel = FirebaseLoginViewModel()
   override func viewDidLoad() {
     super.viewDidLoad()
     navigationItem.setHidesBackButton(true, animated: true)
@@ -65,15 +65,15 @@ class LoginViewController: UIViewController {
           errorLabel.isHidden = false
           return
       }
-    viewModel.login(email: email, password: password) {[weak self] success, error in
-      if success {
-        self?.coordinator?.showDashboard()
-        print("Logged in")
-      } else {
-          self?.errorLabel.text = error
-          self?.errorLabel.isHidden = false
+      fbViewModel.login(email: email, password: password) { [weak self] success, error in
+          if success {
+              self?.coordinator?.showDashboard()
+              print("Logged in")
+          } else {
+              self?.errorLabel.text = error
+              self?.errorLabel.isHidden = false
+          }
       }
-    }
   }
     @IBAction func signUpAction(_ sender: Any) {
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)

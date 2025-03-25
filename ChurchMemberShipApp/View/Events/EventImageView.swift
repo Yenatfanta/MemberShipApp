@@ -39,5 +39,4 @@ struct EventImageView: View {
                 .stroke(Color.gray.opacity(0.2), lineWidth: 1)
         )
     }
-    
 }

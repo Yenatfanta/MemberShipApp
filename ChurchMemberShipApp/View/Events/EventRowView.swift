@@ -45,6 +45,6 @@ struct EventRowView: View {
     }
 }
 
-//#Preview {
+// #Preview {
 //    EventRowView()
-//}
+// }

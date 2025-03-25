@@ -13,7 +13,7 @@ final class SignUpViewController: UIViewController {
   @IBOutlet weak var passwordTextField: UITextField!
   @IBOutlet weak var confirmPassword: UITextField!
   @IBOutlet weak var errorLabel: UILabel!
-    private let viewModel = SignUpViewModel()
+  private let fbViewModel = FirebaseLoginViewModel()
   override func viewDidLoad() {
     super.viewDidLoad()
     navigationItem.setHidesBackButton(true, animated: true)
@@ -92,17 +92,22 @@ final class SignUpViewController: UIViewController {
       ) as? LoginViewController else {
             return
     }
-      viewModel.signUp(email: email, password: password, fullName: fullName) { [weak self] success, errorMessage in
-              DispatchQueue.main.async {
-                  if success {
-                      self?.navigationController?
-                          .pushViewController(loginViewController, animated: true)
-                  } else {
-                      self?.errorLabel.text = errorMessage
-                      self?.errorLabel.isHidden = false
-                  }
-              }
-          }
+      fbViewModel
+          .signUp(
+            email: email,
+            password: password,
+            fullName: fullName) { [weak self] success, errorMessage in
+                DispatchQueue.main.async {
+                    if success {
+                        self?.navigationController?
+                            .pushViewController(loginViewController, animated: true)
+                    } else {
+                        self?.errorLabel.text = errorMessage
+                        self?.errorLabel.isHidden = false
+                    }
+                }
+
+            }
   }
     @objc private func textFieldDidBeginEditing(_ textField: UITextField) {
       textField.addShadow()
